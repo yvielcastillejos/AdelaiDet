@@ -62,6 +62,9 @@ wget -O gt_totaltext.zip https://cloudstor.aarnet.edu.au/plus/s/SFHvin8BLUM4cNd/
 
 You can also prepare your custom dataset following the [example scripts](https://universityofadelaide.box.com/s/phqfzpvhe0obmkvn17akn9qw47u1m44i).
 
+To train from scratch:
+- MODEL.WEIGHTS = ""
+- 
 Pretrainining with synthetic data:
 
 ```
