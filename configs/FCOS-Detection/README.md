@@ -62,7 +62,9 @@ Name | inf. time | box AP | box AP (test-dev) | download
 
 If the number of foreground samples is small or unstable, please set [`MODEL.FCOS.LOSS_NORMALIZER_CLS`](https://github.com/aim-uofa/AdelaiDet/blob/586bf2d6d4a4d662956203675a108f79d7d0f3ce/adet/config/defaults.py#L47) to `"moving_fg"`, which is more stable than normalizing the loss with the number of foreground samples in this case.
 
-
+- Use own dataset
+- train from scratch
+- train with pretrained network & unfreeze layers
 # Citing FCOS
 If you use FCOS in your research or wish to refer to the baseline results, please use the following BibTeX entries.
 ```BibTeX
